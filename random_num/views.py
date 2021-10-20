@@ -5,3 +5,4 @@ import random
 
 def random_number(requests):
     return HttpResponse(f"Random number: {random.randint(1, 100)}")
+
